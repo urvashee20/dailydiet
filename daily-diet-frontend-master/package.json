@@ -1,0 +1,62 @@
+{
+  "name": "daily-diet-app",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:5000",
+  "dependencies": {
+    "@react-oauth/google": "^0.2.2",
+    "@reduxjs/toolkit": "^1.8.0",
+    "@testing-library/jest-dom": "^5.14.1",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "apexcharts": "^3.35.0",
+    "axios": "^0.27.2",
+    "joi": "^17.9.2",
+    "jsonwebtoken": "^9.0.0",
+    "jwt-decode": "^3.1.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.3",
+    "msw": "^0.47.1",
+    "react": "^17.0.2",
+    "react-alice-carousel": "^2.6.4",
+    "react-apexcharts": "^1.4.0",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.26.1",
+    "react-hot-toast": "^2.2.0",
+    "react-icons": "^4.3.1",
+    "react-intersection-observer": "^8.32.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.3",
+    "react-router-hash-link": "^2.4.3",
+    "react-scripts": "^5.0.1",
+    "react-spinners": "^0.12.0",
+    "redux": "^4.1.2",
+    "styled-components": "^5.3.3",
+    "styled-normalize": "^8.0.7",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --watchAll --detectOpenHandles --verbose",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
